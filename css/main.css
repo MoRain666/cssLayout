@@ -9,6 +9,7 @@
 .wrapper{
     margin: 0 auto;
     width: 100%;
+    min-width: 300px;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -58,6 +59,9 @@ header::after{
     transform: rotate(45deg);
     z-index: 1;
     background-color: #6b9ad0; 
+}
+header a:hover{
+    background-color: #053b79; 
 }
 .navigation{
     width: 90%;
@@ -284,8 +288,9 @@ h3{
 }
 .tags-container a{
     position: relative;
-    margin: 2%;
-    padding: 1%;
+    margin-top: 7px;
+    margin-right: 25px;
+    padding: 7px;
     color: white;
     background-color: rgb(103, 148, 183);
     z-index: 1;
@@ -294,12 +299,15 @@ h3{
     z-index: 0;
     content: '';
     position: absolute;
-    width: 22px; 
-    height: 22px; 
-    right: -11px; 
+    width: 0px; 
+    height: 0px; 
+    right: -30px; 
     bottom: 4px; 
-    transform: rotate(45deg); 
-    background-color: #6794b7; 
+    content: '';
+    position: absolute;
+    bottom: 0px;
+    border: 15px solid transparent;
+    border-left: 15px solid #6794b7;
 }
 .tags-container a:after{
     position: absolute;
@@ -307,8 +315,8 @@ h3{
     width: 8px;
     height: 8px;
     border-radius: 50%;
-    right: -6%;
-    bottom: 12px;
+    right: -8px;
+    bottom: 11px;
     background-color: #fff;
 }
 .load{
@@ -351,6 +359,7 @@ h3{
         display: none;
     }
     .info-container{
+        min-width: 50px;
         width: 7%;
         margin-top: 5%;
         margin-left: 0;
@@ -448,6 +457,7 @@ h3{
         background-color: inherit;
         color: rgb(124, 190, 217);
         font-size: 27px;
+        width: 100%;
     }
     .table-tags{
         display: none;
