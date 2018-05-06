@@ -1,0 +1,116 @@
+@media(max-width: 380px){
+    .logo a{
+        width: 90%;
+    }
+    .elementOFMenu{
+        display: none;
+    }
+    .navigation{
+        display: none;
+    }
+    header::after {
+        display: none;
+    }
+    header{
+        border: none;
+    }
+    .mobile-navigation{
+        display: flex;
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .container-mobile-elements-left{
+        display: flex;
+        width: 60%;
+        height: 100%;
+        align-items: center;
+    }
+    .container-mobile-elements-left a , .toggle{
+        margin: 0 1%;
+        width: 22%;
+        height: 90%;
+        border-style: solid;
+        border-width: 2px;
+        border-color: rgb(124, 167, 217);
+        background-color: rgb(124, 167, 217);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 20px;
+        font-family: "Arial";
+        color: rgb(96, 141, 193);
+    }
+    .container-mobile-elements-right{
+        display: flex;
+        width: 10%;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .toggle{
+        border: none;
+        background-color: inherit;
+        color: rgb(124, 190, 217);
+        font-size: 27px;
+        width: 100%;
+    }
+    .table-tags{
+        display: none;
+    }
+    .info-container{
+        display: none;
+    }
+    main{
+        justify-content: center;
+    }
+    .blogoflowers img {
+        max-height: 25%;
+    }
+    h3{
+        text-align: center;
+        background-color: rgba(226, 229, 232, 0.38);
+        margin: 0;
+        height: 11%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .date-autor-socials{
+        border-top: none;
+        height: 37px;
+    }
+    .date-autor-container{
+        width: 50%;
+    }
+    .mobile-socials-container{
+        margin-top: 3%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .mobile-socials-container .facebook{
+        background-image: url("../assets/table-icons/social-icons-tablet-mobile.jpg");
+        width: 13%;
+        background-position: -13px -14px;
+        height: 20%;
+    }
+    .mobile-socials-container .google{
+        background-position: -57px -14px;
+    }
+    .mobile-socials-container .twitter{
+        background-position: -107px -14px;
+    }
+    .mobile-socials-container .vk{
+        background-position: -157px -14px;
+    }
+    .mobile-socials-container .yandex{
+        background-position: 49px -14px;
+    }
+    .colorful-colors{
+        height: 46%;
+    }
+    .load{
+        height: 60px;
+    }
+}

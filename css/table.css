@@ -1,0 +1,74 @@
+@media(max-width: 768px){
+    header{
+        justify-content: space-between;
+    }
+    header::after{
+        left: 62%;
+    }
+    .elementOFMenu{
+        display: flex;
+    }
+    main{
+        justify-content: flex-end;
+    }
+    .content-blog{
+        width: 85%
+    }
+    .about{
+        display: none;
+    }
+    .some-info{
+        display: none;
+    }
+    .date-autor-container{
+        width: 30%;
+    }
+    .content-blog .socials-container{
+        display: none;
+    }
+    .info-container .tags-container{
+        display: none;
+    }
+    .info-container{
+        min-width: 50px;
+        width: 7%;
+        margin-top: 5%;
+        margin-left: 0;
+    }
+    .info-container .socials-container{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        width: 100%;
+        height: 13%;
+        margin-bottom: 408%;
+    }
+    .info-container .facebook{
+        background-image: url("../assets/table-icons/social-icons-tablet-mobile.jpg");
+        width: 73%;
+        background-position: -13px -13px;
+        height: 20%;
+    }
+    .info-container .google{
+        background-position: -58px -13px;
+    }
+    .info-container .twitter{
+        background-position: -108px -13px;
+    }
+    .info-container .vk{
+        background-position: -159px -13px;
+    }
+    .info-container .yandex{
+        background-position: 47px -13px;
+    }
+    .sosials-container-table{
+        height: 100%;
+    }
+    .table-tags{
+        display: flex;
+        margin-top: 4%;
+    }
+    .table-tags .tags-container{
+        justify-content: center;
+    }
+}
