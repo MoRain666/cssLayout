@@ -392,7 +392,7 @@ h3{
         justify-content: center;
     }
 }
-@media(max-width: 360px){
+@media(max-width: 380px){
     .logo a{
         width: 90%;
     }
@@ -468,6 +468,7 @@ h3{
         height: 11%;
         display: flex;
         align-items: center;
+        justify-content: center;
     }
     .date-autor-socials{
         border-top: none;
