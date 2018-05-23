@@ -40,8 +40,7 @@
         flex-direction: column;
         align-items: flex-end;
         width: 100%;
-        height: 13%;
-        margin-bottom: 408%;
+        height: 23%;
     }
     .info-container .facebook{
         background-image: url("../assets/table-icons/social-icons-tablet-mobile.jpg");
@@ -62,7 +61,10 @@
         background-position: 47px -13px;
     }
     .sosials-container-table{
-        height: 100%;
+        height: 56%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
     }
     .table-tags{
         display: flex;
